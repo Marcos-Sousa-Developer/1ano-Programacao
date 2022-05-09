@@ -18,13 +18,13 @@ O objetivo deste trabalho é desenvolver um analisador de jogos de xadrez. O fic
 
 O programa deve executar a partir da linha de comandos. Os argumentos passados na linha de comandos determinam a execução do programa. O modo geral de interagir com o vosso trabalho é o seguinte.
 
-$ python projeto.py ficheiro.csv comando opcoes
+* $ python projeto.py ficheiro.csv comando opcoes
 
 onde ficheiro.csv é um ficheiro csv com a informação sobre jogos de xadrez (xadrez.csv por exemplo), comando é um dos seiscomandos descritos abaixo e opcoes descreve um conjunto de opções específicaspara cada comando, descritas juntamente com cada comando.
 
 **Operação anos** O comando
 
-$ python projeto.py xadrez.csv anos
+* $ python projeto.py xadrez.csv anos
 
 gera os dois gráficosna figura1. [Tratam-se](#_page1_x292.22_y349.57) de dois gráficossobrepostos na mesma figura,com um eixo das abcissas comum, e dois eixos distintos para as ordenadas, um à esquerda (como habitualmente), e outro à direita, tal como descritos abaixo.
 
@@ -39,19 +39,17 @@ Figura 1: Operação anos
 
 $ python projeto.py xadrez.csv classes
 
-![](Aspose.Words.49919fc0-6021-46e6-b6e5-ac6c6e80f146.003.png)
+![Aspose Words 49919fc0-6021-46e6-b6e5-ac6c6e80f146 003](https://user-images.githubusercontent.com/105118849/167431302-e9f4cc55-f1de-467f-a21a-8da157a7e9bb.png)
 
 Figura 2: Operação classes
 
-2
+gera os cinco gráficosna figura2. [Trata-se](#_page1_x283.26_y656.10) de uma figura com os gráficos da distribuição de jogos por formato de jogo. Os jogos de xadrez online podem ser jogados com várias restrições de tempo de jogo; dividem-se em 4 classes: rapid, daily, bullet e blitz. Cada uma destas classes tem vários formatos, representando o tempo para cada jogador, como por exemplo: 180 (cada jogador tem 180 segundos, ou seja, três minutos), 600+2 (cada jogador tem 600 segundos, ou seja, dez minutos, com incrementos de dois segundos a cada jogada), 1/259200 (cada jogador tem três dias para fazer o próximo lance).
 
-gera os cinco gráficosna figura2. [Trata-se](#_page1_x283.26_y656.10) de uma figuracom os gráficosda distribuição de jogos por formato de jogo. Os jogos de xadrez online podem ser jogados com várias restrições de tempo de jogo; dividem-se em 4 classes: rapid, daily, bullet e blitz. Cada uma destas classes tem vários formatos, representando o tempo para cada jogador, como por exemplo: 180 (cada jogador tem 180 segundos, ou seja, três minutos), 600+2 (cada jogador tem 600 segundos, ou seja, dez minutos, com incrementos de dois segundos a cada jogada), 1/259200 (cada jogador tem três dias para fazer o próximo lance).
+A figura deve apresentar, por omissão, o top-5 dos formatos mais populares, isto é, dos formatos com maior número de jogos ao longo de todos os anos. No entanto, caso a opção -c n esteja presente na linha de comandos, o gráfico deve apresentar as n classes mais populares, isto é, com maior número de jogos. O exemplo na figura3 [pode](#_page2_x268.31_y550.22) ser gerado com o seguinte comando.
 
-A figuradeve apresentar, por omissão, o top-5 dos formatos mais populares, isto é, dos formatos com maior número de jogos ao longo de todos os anos. No entanto, caso a opção -c n esteja presente na linha de comandos, o gráfico deve apresentar as n classes mais populares, isto é, com maior número de jogos. O exemplo na figura3 [pode](#_page2_x268.31_y550.22) ser gerado com o seguinte comando.
+* $ python projeto.py xadrez.csv classes -c 3
 
-$ python projeto.py xadrez.csv classes -c 3
-
-![](Aspose.Words.49919fc0-6021-46e6-b6e5-ac6c6e80f146.004.png)
+![Aspose Words 49919fc0-6021-46e6-b6e5-ac6c6e80f146 004](https://user-images.githubusercontent.com/105118849/167431425-ee03af94-1472-4cba-87a6-1527aecf9f09.png)
 
 Figura 3: Operação classes -c 3
 
@@ -59,7 +57,7 @@ Em qualquer caso, o gráfico time\_class deve apresentar sempre as 4 classes pri
 
 **Operação vitorias** O comando
 
-$ python projeto.py xadrez.csv vitorias
+* $ python projeto.py xadrez.csv vitorias
 
 gera o gráficona figura4.[ T](#_page3_x280.27_y352.83)rata-se de um gráficode barras em que as abcissas são os nomes das jogadoras e as ordenadas são as percentagens de vitórias
 
