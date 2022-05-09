@@ -12,4 +12,15 @@ A linguagem veículo é Python 3.
 ## Enunciado
 Esta versão contém apenas 250 linhas no ficheiro csv, por causa do limite de tamanho de ficheiros no GitHub <br>
 
+O objetivo deste trabalho é desenvolver um analisador de jogos de xadrez. O ficheiro xadrez.csv contém informação sobre mais de 100 mil jogos de
+xadrez jogados pelas melhores jogadoras do mundo. No final deste enunciado encontra uma descrição do conteúdo de cada coluna neste ficheiro.
+O programa deve executar a partir da linha de comandos. Os argumentos passados na linha de comandos determinam a execução do programa. O
+modo geral de interagir com o vosso trabalho é o seguinte. <br> 
+$ python projeto.py ficheiro.csv comando opcoes <br>
+-----------------------------------------------------------
+onde ficheiro.csv é um ficheiro csv com a informação sobre jogos de xadrez (xadrez.csv por exemplo), comando é um dos seis comandos
+descritos abaixo e opcoes descreve um conjunto de opções específicas para cada comando, descritas juntamente com cada comando.
+
+
+
 
