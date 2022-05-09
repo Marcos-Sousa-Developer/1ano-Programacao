@@ -1,6 +1,4 @@
 
-![image](https://user-images.githubusercontent.com/105118849/167331066-a6801f65-86c2-422d-9e81-d45d10c139b6.png)
-
 # Projeto de 1ºano, Programação 1 e 2.
 Projeto de 1ºano, do curso de Tecnologias de Informação <br>
 Cadeira: Programação 1 e 2 
