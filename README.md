@@ -11,3 +11,5 @@ A linguagem veículo é Python 3.
 Esta versão contém apenas 250 linhas no ficheiro csv, por limite de tamanho de ficheiros no GitHub <br>
 
 Nota final: 17 valores.
+
+![image](https://user-images.githubusercontent.com/105118849/167371494-5ec3f377-a6ef-4998-b682-3d4d00c0c949.png)
