@@ -49,6 +49,7 @@ jogos. O exemplo na figura 3 pode ser gerado com o seguinte comando.
 $ python projeto.py xadrez.csv classes -c 3
 
 ![image](https://user-images.githubusercontent.com/105118849/167373448-5d4639d8-a018-4d26-8acf-c35b2a00a778.png)
+
 Em qualquer caso, o gráfico time_class deve apresentar sempre as 4 classes principais: rapid, daily, bullet e blitz
 
 #### Operação vitorias O comando
