@@ -14,7 +14,7 @@ A linguagem veículo é Python 3.
 
 Analisador de Jogos de Xadrez
 
-O objetivo deste trabalho é desenvolver um analisador de jogos de xadrez. O ficheiro xadrez.csv contém informação sobre mais de 250 jogos de xadrez jogados pelas melhores jogadoras do mundo. No finaldeste enunciado encontra uma descrição do conteúdo de cada coluna neste ficheiro.
+O objetivo deste trabalho é desenvolver um analisador de jogos de xadrez. O ficheiro xadrez.csv contém informação sobre mais de 100K jogos de xadrez jogados pelas melhores jogadoras do mundo. No finaldeste enunciado encontra uma descrição do conteúdo de cada coluna neste ficheiro.
 
 O programa deve executar a partir da linha de comandos. Os argumentos passados na linha de comandos determinam a execução do programa. O modo geral de interagir com o vosso trabalho é o seguinte.
 
@@ -31,9 +31,7 @@ gera os dois gráficosna figura1. [Tratam-se](#_page1_x292.22_y349.57) de dois g
 - Gráficode barras onde as abcissas são os anos (2009, ..., 2021) e as ordenadas são o número de jogos. Deve usar o eixo da esquerda para o valor das ordenadas.
 - Curva em que as abcissas são as mesmas do gráficoanterior, isto é, o valor dos anos, e as ordenadas são o número de jogadoras. Deve usar o eixo do lado direito para as ordenadas.
 
-![](Aspose.Words.49919fc0-6021-46e6-b6e5-ac6c6e80f146.001.png)
-
-![](Aspose.Words.49919fc0-6021-46e6-b6e5-ac6c6e80f146.002.png)
+![Aspose Words 49919fc0-6021-46e6-b6e5-ac6c6e80f146 002](https://user-images.githubusercontent.com/105118849/167431023-bb9e497b-95e7-4631-be22-cfebe32916dd.png)
 
 Figura 1: Operação anos
 
