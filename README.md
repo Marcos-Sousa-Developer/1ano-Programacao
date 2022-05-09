@@ -10,7 +10,7 @@ A linguagem veículo é Python 3.
 #### Nota final: 17 valores.
 
 ## Projeto
-#### Enunciado do projeto -> https://github.com/Marcos-Sousa-Developer/1ano-Programacao1_2/blob/master/README.pdf
+#### README (README.pdf) do projeto -> https://github.com/Marcos-Sousa-Developer/1ano-Programacao1_2/blob/master/README.pdf
 Esta versão contém apenas 250 linhas no ficheiro csv, por causa do limite de tamanho de ficheiros no GitHub <br>
 
 
