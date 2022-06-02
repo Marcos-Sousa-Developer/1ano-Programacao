@@ -1,5 +1,6 @@
 
-# Projeto de 1ºano, Programação.
+# Projeto de 1ºano.
+## "Analisador de Jogos de Xadrez"
 Projeto de 1ºano, do curso de Tecnologias de Informação <br>
 
 Cadeira: Programação 2 
